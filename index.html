@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <title>A&T</title>
+        <meta name="description" content="Taking the latest international trends and mixing them with influences seen on the street. Fashion for young people who are engaged with their environment and relate to each other."/>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css"/>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+            
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700&family=Source+Sans+Pro:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+        <link rel="icon" href="images1/favicon-32x32.png" type="image/png">
+        <link rel="icon" href="images1/favicon-16x16.png" type="image/png">
+        <link rel="icon" href="images1/android-chrome-192x192.png" type="image/png">
+        <link rel="icon" href="images1/android-chrome-512x512.png" type="image/png">
+        <link rel="icon" href="images1/apple-touch-icon.png" type="image/png">
+        <script src="https://kit.fontawesome.com/e6688e278c.js" crossorigin="anonymous"></script>
+
+    </head>
+    <body>
+          <div class="header">
+            <div class="container">
+                <div class="navbar">
+                    <div class="logo">
+                        <a href="file:///F:/study/E-commerce/index.html"><img src="owel.jpg" alt="" width="80px"></a>
+                    </div>
+                    <nav class="the rest">
+                        <ul id="MenuItems">
+                            <li><a href="file:///F:/study/E-commerce/account_1.html" title="account"><i class="fas fa-user-alt"></i></a></li>
+                            <li><a href="file:///F:/study/E-commerce/contact.html" title="contact us"><i class="fas fa-phone"></i></a></li>
+                             <li><a href="file:///F:/study/E-commerce/about.html" title="about us"><i class="fas fa-info"></i></a></li>    
+                             <li><a href="file:///F:/study/E-commerce/cart.html" title="cart"><i class="fas fa-shopping-bag"></i></a></li>    
+                        </ul>
+                        
+                    </nav> 
+                </div> 
+                <div class="row">
+                    <div class="col-2">
+                        <h1 >Make your own <br> style!</h1>
+                        <p>Own yourself ,own every thing.<br>The world is yours.</p>
+                        <a href="file:///F:/study/E-commerce/new.html" class="btn">Check the new collection &#8594;</a>
+                    </div>
+                    <div class="col-2">            <div class="slider">
+                        <img name="slide" width="140%" id="imgopen">
+                        <script>
+                        var i = 0; 			// Start Point
+                        var images = [];	// Images Array
+                        var time = 3000;	// Time Between Switch
+                            
+                        // Image List
+                       
+                       
+                        images[0] = "images/home/slide2.jpg";
+                        images[1] = "images/home/slide3.jpg";
+                        // Change Image
+                        function changeImg(){
+                            document.slide.src = images[i];
+        
+                            // Check If Index Is Under Max
+                            if(i < images.length - 1){
+                            // Add 1 to Index
+                            i++; 
+                            } else { 
+                                // Reset Back To O
+                                i = 0;
+                            }
+        
+                            // Run function every x seconds
+                            setTimeout("changeImg()", time);
+                        }
+        
+                        // Run function when page loads
+                        window.onload=changeImg;
+                        </script>
+        
+                    </div></div>
+                </div>
+            </div>
+
+             <div class="row">
+                <div class="col-mw">
+                    <img src="images/home/w1.jpg" alt="img">
+                    <a href="file:///F:/study/E-commerce/woman.html" class="buttonwoman">SHOP FOR HER &#8594;</a>
+                </div>
+                <div class="col-mw">
+                    <img src="images/home/m2.jpg" alt="img">
+                    <a href="file:///F:/study/E-commerce/men.html" class="buttonman">SHOP FOR HIM &#8594;</a>                
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-3">
+                    <h1>Every <br> neighborhood <br>in the world <br> has its <br> spirit <br> and <br> identity</h2>
+                        <a href="file:///F:/study/E-commerce/sreet.html" class="buttonst">Shop now &#8594;</a>
+                </div>
+                <div class="col-3"><img src="images/home/street.jpg"></div>
+            </div>
+            <div class="row">
+                <div class="col-4">
+                    <h2>Summer collection out now!</h2>
+                        <p class="smalltxt">smell the see and feel the sky ,<br>let your soul and spirit   <br> <b>fly</b></p><br>
+                    <a href="file:///F:/study/E-commerce/summer.html" class="buttonsummer">Shop now &#8594;</a>
+                </div>
+                <div class="col-4"><img src="images/home/Newin_man.jpg" width="75%"></div>
+            </div> 
+             <div class="row-acss">
+                 <div class="col-acss">
+                    <img src="images/home/acss.jpg" alt="ACCESSORIES">
+                    <a href="file:///F:/study/E-commerce/accs.html" class="buttonacss">GET COOL ACCESSORIES &#8594;</a>
+                 </div>    
+            </div>        
+
+             <div class="small-container">
+                <h2 class="products-title">You might like</h2>
+           
+                <div class="products">
+                    <div class="column-">
+                    
+                        <a href="file:///F:/study/E-commerce/w9.html"><img src="images/product_women/Ribbed cropped T-shirt with buttons.jpg"></a>
+                        <h4>Ribbed cropped T-shirt with buttons</h4>                    
+                        <p>EGP 359.00</p>
+                        
+                    </div>
+                    <div class="column-">
+                        <a href="file:///F:/study/E-commerce/mer6.html"><img src="images/merch/Black Young Thug T-shirt.webp" class="pro"></a>
+                        <h4>Black Young Thug T-shirt</h4>                    
+                        <p>EGP 259.00</p>
+                    </div>
+                    <div class="column-">
+                        <a href="file:///F:/study/E-commerce/s3.html"><img src="images/summer_collection/Regular-fit lyocell linen shirt.webp"></a>
+                        <h4>Regular-fit lyocell linen shirt</h4>                    
+                        <p>EGP 499.00</p>
+                    </div>
+                    <div class="column-">
+                        <a href="file:///F:/study/E-commerce/mm8.html"><img src="images/home products/Join Life basic T-shirt.webp"></a>
+                        <h4>Join Life basic T-shirt</h4>                    
+                        <p>EGP 449.00</p>
+                    </div>
+
+                    <div class="column-">
+                       <a href="file:///F:/study/E-commerce/m9.html"> <img src="images/home products/s2.jpg" class="pro"></a>
+                        <h4>Contrasting purp heigh sneakers</h4>                    
+                        <p>EGP 959.00</p>
+                    </div>
+                    <div class="column-">
+                        <a href="file:///F:/study/E-commerce/s4.html"><img src="images/summer_collection/Regular-fit printed cotton shirt.webp"></a>
+                        <h4>Regular-fit printed cotton shirt</h4>                    
+                        <p>EGP 559.00</p>
+                    </div>
+                    <div class="column-">
+                        <a href="file:///F:/study/E-commerce/w6.html"><img src="images/product_women/High-rise straight-leg colored jeans.jpg"></a>
+                        <h4>High-rise straight-leg colored jeans</h4>                    
+                        <p>EGP 459.00</p>
+                    </div>
+                    <div class="column-">
+                        <a href="file:///F:/study/E-commerce/ac2.html"><img src="images/ACCS/Crossbody mobile phone pouch with flap.webp"></a>
+                        <h4>Crossbody mobile phone pouch with flap</h4>                    
+                        <p>EGP 199.00</p>
+                    </div>
+                    <div class="column-">
+                        <a href="file:///F:/study/E-commerce/w11.html"><img src="images/product_women/Printed collared shirt - 100% ECOVEROTM Viscose.jpg"></a>
+                        <h4>Printed collared shirt - 100% ECOVEROTM Viscose</h4>                    
+                        <p>EGP 499.00</p>
+                    </div>
+                    <div class="column-">
+                        <a href="file:///F:/study/E-commerce/mer1.html"><img src="images/merch/Rick & Morty hoodie.webp"></a>
+                        <h4>Rick & Morty hoodie</h4>
+                        <p>EGP 449.00</p>
+                    </div>
+                    <div class="column-">
+                        <a href="file:///F:/study/E-commerce/w1.html"> <img src="images/product_women/Basic cotton overshirt.webp"></a>
+                        <h4>Basic cotton overshirt</h4>
+                        <p>EGP 449.00</p>
+                    </div>
+                </div>    
+            </div> 
+             
+             <div class="row-merch" >
+                <div class="col-merch" >
+                    <h2 align='center'>Check the new merchs!</h2>
+                   <img src="images/home/rick1.jpg" width="120%">
+                   <a href="file:///F:/study/E-commerce/Merch.html" class="buttonmerch">Get your merch &#8594;</a>
+                </div>    
+           </div> 
+        </div>   
+        <div class="footer">
+            <div class="inner-footer" >
+                <div class="footer-thired">
+                    <h3>NEED HELP?</h3>
+                    <a href="file:///F:/study/E-commerce/about.html">About us</a>
+                    <a href="file:///F:/study/E-commerce/contact.html">Contact with us</a>
+
+                    <a href="#">Terms &amp;conditions</a>
+                    <a href="#">Privacy &amp;policy</a>
+                    <a href="#">Returnes &amp;refundes</a>
+                    
+                </div>
+                <div class="footer-thired">
+                    <h3>SHOP</h3>
+                    <a href="file:///F:/study/E-commerce/new.html">mew in</a>
+                    <a href="file:///F:/study/E-commerce/woman.html">woman</a>
+                    <a href="file:///F:/study/E-commerce/men.html">man</a>
+                    <a href="file:///F:/study/E-commerce/sreet.html">streetwear</a>
+                    <a href="file:///F:/study/E-commerce/summer.html">summer collection</a>
+                    <a href="file:///F:/study/E-commerce/accs.html">accessories</a>
+                    <a href="file:///F:/study/E-commerce/Merch.html">merchndise</a>
+                </div>
+                <div class="logocontainer">
+                       <a href="file:///F:/study/E-commerce/index.html"><img src="owelfooter.jpg" alt="" width="80px"></a>
+
+                </div>
+                
+               
+                <div class="footer-thired">
+                    <h3>Follow us</h3>
+                    <ul>
+                        <li><a href="https://www.facebook.com/tamer.ashraf.587"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="https://twitter.com/thisisahmed9"><i class="fa fa-twitter"></i></a></li>
+                        <li><a href="https://www.instagram.com/6tamerashraf9/"><i class="fa fa-instagram"></i></a></li>
+
+                    </ul>                    
+                </div>
+                <div class="footer-thired">
+                    <span>
+                        © A&T's business concept is to offer fashion and quality at the best price in a sustainable way.
+                        A&T has since it was founded in 1947 grown into one of the world's leading fashion companies. <br>                                                  
+                   </span>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
